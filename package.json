@@ -1,0 +1,36 @@
+{
+  "name": "gnosis-safe-execution",
+  "version": "0.0.1",
+  "description": "Execute Gnosis Safe",
+  "scripts": {
+    "lint": "eslint --fix src",
+    "format": "prettier --write ./src/**/*.ts ./test/**/*.test.ts ./src/**/*.json",
+    "start": "ts-node ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "deep-quality-dev",
+  "license": "MIT",
+  "dependencies": {
+    "@gnosis.pm/safe-core-sdk": "2.0.0",
+    "@gnosis.pm/safe-deployments": "1.14.0",
+    "@gnosis.pm/safe-ethers-adapters": "0.1.0-alpha.8",
+    "@gnosis.pm/safe-ethers-lib": "1.0.0",
+    "@gnosis.pm/safe-service-client": "1.1.1",
+    "dotenv": "16.0.0",
+    "eth-sig-util": "^3.0.1",
+    "ethers": "5.6.0",
+    "typescript": "4.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.21",
+    "@typescript-eslint/eslint-plugin": "5.15.0",
+    "@typescript-eslint/parser": "5.15.0",
+    "eslint": "8.11.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-simple-import-sort": "7.0.0",
+    "eslint-plugin-unused-imports": "2.0.0",
+    "prettier": "2.5.1",
+    "ts-node": "10.7.0"
+  }
+}
